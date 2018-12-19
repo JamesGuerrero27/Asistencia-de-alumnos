@@ -38,19 +38,14 @@ nombreClase
 idClase
 idEstudiate
 
-URL-Entidad-Relacion: https://www.lucidchart.com/invitations/accept/b2852937-e08a-4e46-9467-064591eda926
-
-//////////////////////////////////////////////////////////////
-
-|| Convensión de Nombres ||
 
 GET
-- /app/view/student/class  *(Ver alumnos que pertenecen a una clase en particular)
+- /app/view/student 
 Necesitamos: clase
 
 POST
-- /app/student/class/check  *( Los estudiantes puden marcar sus asistencia por dia y clase. )
+- /app/student/class 
 
 POST
-- /app/teacher/class/check *(Los Maestros pueden marcar asistencia de cada clase.)
+- /app/teacher/class
 
